@@ -19,19 +19,37 @@ The Unconventional Calculator Project aims to provide users with a unique and en
 
 This version of the calculator includes control statements (if-else) for handling different arithmetic operations.
 
+#### Summary
+The calculator with control statements offers a traditional approach to handling arithmetic operations. It utilizes conditional statements to determine the operation to perform based on user input.
+
+#### Structure
+
 - **index.html**: HTML file containing the structure of the calculator interface.
 - **app.js**: JavaScript file containing the logic for performing calculations and handling user inputs.
 - **vendor.js**: JavaScript file containing vendor-specific scripts.
 - **app.css**: CSS file for styling the calculator interface.
+
+#### Logic Explanation
+- The `calculateResult()` function in `app.js` checks the calculation type (addition, subtraction, multiplication, or division) using conditional statements and performs the corresponding operation.
+- User input is validated to ensure it is a valid number before performing calculations.
 
 ### 2. The Unconventional Calculator Project Without Control Statements
 
 This version of the calculator omits control statements and directly performs calculations based on user inputs.
 
+#### Summary
+The calculator without control statements provides a simplified approach to arithmetic operations. It directly performs calculations based on user input without the need for conditional statements.
+
+#### Structure
+
 - **index.html**: HTML file containing the structure of the calculator interface.
 - **app.js**: JavaScript file containing the logic for performing calculations and handling user inputs.
 - **vendor.js**: JavaScript file containing vendor-specific scripts.
 - **app.css**: CSS file for styling the calculator interface.
+
+#### Logic Explanation
+- Each arithmetic operation (addition, subtraction, multiplication, division) has its own dedicated function (`add()`, `subtract()`, `multiply()`, `divide()`) in `app.js`.
+- These functions directly perform calculations based on user input without the need for conditional statements.
 
 ## Usage
 
